@@ -1,0 +1,23 @@
+:root {
+  --red: #ff000f;
+  --blue: hsl();
+  --grey: #8d8d8d;
+  --fss: 1rem;
+  --fsm: 2rem;
+  --fsl: 3rem;
+}
+h1,
+h2,
+h3 {
+  color: var(--grey);
+}
+.article1,
+.article2 {
+  text-transform: capitalize;
+  color: chartreuse;
+}
+.article1 p:nth-child(odd) {
+  color: var(--red);
+  text-transform: uppercase;
+  font-size: var(--fsm);
+}
