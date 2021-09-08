@@ -16,6 +16,8 @@ h3 {
   text-transform: capitalize;
   color: chartreuse;
 }
+
+/* nth  sayi veya odd even */
 .article1 p:nth-child(odd) {
   color: var(--red);
   text-transform: uppercase;
